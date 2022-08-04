@@ -1,0 +1,12 @@
+.rate {
+    border: solid 1px hsl(216, 12%, 54%);
+    padding: 1rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    height: .75rem;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+}
