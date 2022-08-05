@@ -6,6 +6,12 @@
     height: .75rem;
 }
 
+.icon-star {
+    border: solid 1px hsl(216, 12%, 54%);
+    border-radius: 50%;
+    padding: .75rem;
+}
+
 .rating-container {
     display: flex;
     justify-content: space-between;
