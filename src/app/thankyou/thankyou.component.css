@@ -1,0 +1,14 @@
+.card-thankyou {
+    text-align: center;
+}
+
+.card-thankyou img {
+    margin-bottom: 1.5rem;
+}
+
+.rating-msg {
+    color: hsl(25, 97%, 53%);
+    border: solid 1px hsl(216, 12%, 54%);
+    border-radius: 1rem;
+    padding: .4rem .5rem;
+}
