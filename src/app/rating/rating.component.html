@@ -8,11 +8,11 @@
       to help us improve our offering!
     </p>
     <div class="rating-container">
-        <div class="rate">1</div>
-        <div class="rate">2</div>
-        <div class="rate">3</div>
-        <div class="rate">4</div>
-        <div class="rate">5</div>
+        <div class="rate" (click)="getRate(1)">1</div>
+        <div class="rate" (click)="getRate(2)">2</div>
+        <div class="rate" (click)="getRate(3)">3</div>
+        <div class="rate" (click)="getRate(4)">4</div>
+        <div class="rate" (click)="getRate(5)">5</div>
     </div>
-    <button routerLink="/thankyou">Submit</button>
+    <button routerLink="/thankyou" [state]="{ data: {rate}}">Submit</button>
 </div>
