@@ -6,6 +6,22 @@
     height: .75rem;
 }
 
+.rate:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rate:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    border-color: hsl(0, 0%, 100%);
+}
+
 .icon-star {
     border: solid 1px hsl(216, 12%, 54%);
     border-radius: 50%;
