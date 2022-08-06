@@ -57,10 +57,11 @@ h2 {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(25, 97%, 53%);
 }
 
 @media only screen and (min-width: 600px) {
@@ -82,7 +83,7 @@ h2 {
 @media only screen and (min-width: 1200px) {
     .card {
         width: 30%;
-        margin: 8rem auto;
+        margin: 6rem auto;
         padding: 2rem;
     }
 }
